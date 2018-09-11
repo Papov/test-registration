@@ -1,0 +1,46 @@
+.footer{
+  .white-background;
+  &_items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px;
+  }
+  &_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_icon {
+    width: 70px;
+    height: 70px;
+  }
+  &_icon_title {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 0;
+
+  }
+  &_icon_number,&_icon_email a{
+    .blue-color;
+  }
+  &_copyright{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1bbc9b;
+    color: #fff;
+  }
+  &_bigText{
+    font-size: @fontSize + 34px;
+  }
+}
+.vertical_line{
+  width: 1px;
+  height: 120px;
+  background: #4c4c4c;
+}

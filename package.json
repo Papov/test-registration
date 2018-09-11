@@ -1,0 +1,34 @@
+{
+  "name": "react",
+  "version": "0.0.1",
+  "description": "react practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad POpov",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.4",
+    "style-loader": "^0.21.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

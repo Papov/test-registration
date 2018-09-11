@@ -1,0 +1,63 @@
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  padding: 70px 0 0;
+}
+
+.input, .user_message{
+  border-radius: 0;
+  border: .5px solid #a4a4a4;
+  margin: 7px 0;
+  .black-color;
+  font-size: @fontSize - 1px;
+}
+
+.input {
+  height: 50px;
+  padding: 0 15px;
+}
+
+.user_message{
+  padding: 15px;
+  height: 200px;
+  resize: none;
+}
+
+.user_subject{
+  cursor: pointer;
+}
+
+.input_inline{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_name, .user_email{
+  width: calc(50% - 10px);
+}
+
+.user_submit{
+  margin: 45px 0;
+  width: 180px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  .blue-background;
+}
+
+#map{
+  width: calc(100% - 635px);
+  box-sizing: border-box;
+  height: 330px;
+  margin-top: 77px;
+  border: .5px solid #a4a4a4;
+}
